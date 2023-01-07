@@ -1,2 +1,2 @@
 # Computer-Graphics-Computing
- Computer Graphics Computing Submissions
+ _Computer Graphics Computing_ Submissions 📓
