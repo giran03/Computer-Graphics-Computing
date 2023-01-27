@@ -21,10 +21,11 @@ let dvdHP = 8;
 // to generate a random rgb color for the material.
 function randColor()
 {
-    randColorR = Math.random(256);
-    randColorG = Math.random(256);
-    randColorB = Math.random(256);
-    dvdBox.material.color.setRGB(randColorR,randColorG,randColorB);
+    // randColorR = Math.random(256);
+    // randColorG = Math.random(256);
+    // randColorB = Math.random(256);
+    // dvdBox.material.color.setRGB(randColorR,randColorG,randColorB);
+    dvdBox.material.color.setHex(Math.random() * 0xffffff);
 }
 
 // to decrease dvdBox scale on hit.
